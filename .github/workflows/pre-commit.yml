@@ -5,6 +5,8 @@ on:
     branches: [ main ]
   push:
     branches: [ main ]
+permissions:
+  contents: write  # Change to 'write' if pushing changes back
 
 jobs:
   pre-commit:
